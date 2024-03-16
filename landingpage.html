@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="landingpage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+img {
+  margin: auto; 
+  display: block;
+  border-radius: 50%;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.p1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+}
+i{
+  text-align: left;
+}
+.p2{
+font-family: cursive;
+}
+.classy{
+  text-align: center;
+  font-family: cursive;
+}
+</style>
+</head>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+
+<div class="navbar">
+
+ <a href="#home" class="classy"><i class="fa fa-home"></i> Stay Classy</a>
+  <div class="dropdown" style="float: right; margin-right: 60px;">
+    <button class="dropbtn" style="font-family: cursive;">Login 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="login.html">Admin</a>
+      <a href="loginpetugas.html">Petugas</a>
+    </div>
+  </div> 
+</div>
+
+<img src="gambar/50 Excellent Circular Logos.jpg" alt="Logo" style="width: 200px; height: auto; padding: 50px;">
+<h3 style="text-align: center;" class="p2">SELAMAT DATANG DI APLIKASI KASIR. Silahkan Login</h3>
+<p style="text-align: center;" class="p1">Stay Classy</p>
+
+</div>
+</body>
+</html>
